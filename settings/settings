@@ -1,0 +1,40 @@
+# Replace where appropriate with your own settings.
+
+[Twitter]
+api_key = QAXazG7bgLqLAInFnA5G2qIzR
+secret_key = HOHYytnyovXjr0qMqxF1EYzxqLjVDrpmyofNQfwL5GJaFsdQqx
+token = 743940282387927040-jNpYnNjjmTucoYVgXaVa0JiN6IoL4mK
+secret_token = BF9gqvE3iypbaL7XfaIH4yHBPGsKzDaTtv2Z19SHBXlNl
+
+[App]
+image_folder = /home/botImages/
+execution_chance = 1
+allow_repeat_after = 43
+log_file = /home/bot/logs/log
+bot_account = @GatoDePamache
+master_account = @PamacheVonRude
+dont_tweet_file = /home/bot/logs/banned
+
+[Orders]
+#caps agnostic
+ban_command = @GatoDePamache delete dis
+request_command = Hola Gato @GatoDePamache
+time_tolerance = 5
+
+[Texts]
+# Respect indentation: it is TWO spaces
+# tweet_post_number is either True or False, nothing else
+# tweet this text doesn't requiere "" or '', just write the text
+tweet_post_number = True
+tweet_this_text =  
+
+request_answers = Miau
+  Ahora me debes jamon yor
+  <3
+  aaaaaaa
+  
+request_to_third_answers = Hola
+  Miau
+  Doname para comprar jamon yor
+  
+
